@@ -1,0 +1,15 @@
+.card-image {
+    height: 274px;
+    width: 374px;
+}
+
+.customer-review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.customer-review-card {
+    border: 2px solid darkorange;
+}

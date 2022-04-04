@@ -1,0 +1,44 @@
+.home-header {
+    display: flex;
+    padding-left: 20px;
+}
+
+.year {
+    font: size 800px;
+
+    font-weight: bolder;
+    color: pink;
+}
+
+.btn {
+    background-color: rgb(255, 177, 190);
+    padding: 10px 25px;
+    border: 3px solid pink;
+    color: white;
+    font-weight: bold;
+}
+
+.card-image {
+    height: 274px;
+    width: 374px;
+}
+
+.customer-review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.customer-review-card {
+    border: 2px solid darkorange;
+}
+
+.btn-rev {
+    background-color: orange;
+    padding: 10px 25px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
