@@ -5,10 +5,12 @@ import Images3 from '../../Images/image1.jpg';
 import Images4 from '../../Images/image3.jpg';
 import './Home.css';
 
+
 const Home = () => {
     return (
         <div>
-            <h1>This is home.</h1>
+
+
             {/* this is home header start */}
             <div className='home-header'>
                 <div>
@@ -45,7 +47,7 @@ const Home = () => {
                 </div>
             </div>
             <button className='btn-rev'>See All Reviews</button>
-            {/* end of customer review */}
+
         </div>
     );
 };
